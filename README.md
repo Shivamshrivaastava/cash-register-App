@@ -1,2 +1,2 @@
 # cash-register-App
-]https://cash-register-mb.netlify.app/
+https://cash-register-mb.netlify.app/
