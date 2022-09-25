@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cash Register</title>
+    <link rel="stylesheet" href="./lib/style.css" />
+  </head>
+  <body>
+    <div class="container container-centre">
+      <h1 class="heading">Cash Register Manager</h1>
+      <hr />
+      <p class="info">
+        Enter Bill Amount + Cash given by Customer & know the
+        currency-denominations to return.
+      </p>
+      <hr />
+      <h2 class="heading">Bill Amount</h2>
+      <textarea
+        placeholder="Enter amount"
+        class="input block container container-centre"
+        id="inpBillAmount"
+      ></textarea>
+      <h2 class="heading">Cash Given by Customer</h2>
+      <textarea
+        placeholder="Enter amount"
+        class="input block container container-centre"
+        id="cashGivenByCustomer"
+      ></textarea>
+      <button class="btnSubmit block container container-centre" id="submitBtn">
+        Verify
+      </button>
+      <hr />
+      <table id="currencyTable" class="container-centre">
+        <tr>
+          <td>No. Of Notes</td>
+          <td class="notes">0</td>
+          <td class="notes">0</td>
+          <td class="notes">0</td>
+          <td class="notes">0</td>
+          <td class="notes">0</td>
+          <td class="notes">0</td>
+          <td class="notes">0</td>
+        </tr>
+        <tr>
+          <td>Notes</td>
+          <td>2000</td>
+          <td>500</td>
+          <td>100</td>
+          <td>20</td>
+          <td>10</td>
+          <td>5</td>
+          <td>1</td>
+        </tr>
+      </table>
+      <hr />
+      <footer class="footerStyle">
+        <ul class="container container-centre">
+          <li>
+            <div>&copy; | 2022 | All rights Reserved</div>
+          </li>
+          <li></li>
+        </ul>
+      </footer>
+    </div>
+    <script src="./lib/app.js"></script>
+  </body>
+</html>
