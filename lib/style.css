@@ -1,45 +1,44 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,900&display=swap");
 body {
-  font-family: "Lato",sans-serif;
-  background-color:#38bdf8;
-  color: #fff;
+  font-family: "Lato", sans-serif;
+  background-color: #38bdf8;
+  color: white;
 }
-
-.container{
+.container {
   padding: 1rem;
 }
-
-.container-centre{
-  max-width:600px;
+.container-centre {
+  max-width: 600px;
   margin: auto;
-
 }
-
-.block{
+.block {
   display: block;
 }
-.heading{
+.heading {
   text-align: center;
 }
+.info{
+    width: 60%;
+    margin: auto;
+    text-align: center;
 
-.input{
-  width:40%;
-  border-radius:1rem;
+}
+.input {
+  width: 40%;
+  border-radius: 1rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
   text-align: center;
 }
-
-.btnSumbit{
+.btnSubmit {
   border-radius: 1rem;
   background-color: white;
   cursor: pointer;
   margin-top: 1rem;
   margin-bottom: 1rem;
-  font-size:1rem;
+  font-size: 1rem;
 }
-
-#output{
+#output {
   width: 90%;
   height: fit-content;
   border: none;
@@ -49,33 +48,30 @@ body {
   background-color: transparent;
   color: white;
 }
-
-.footerStyle{
-text-align: center;
+.footerStyle {
+  text-align: center;
 }
-
 .footerStyle ul {
-  display:inline;
+  list-style-type: none;
+  margin: auto;
+}
+.footerImage {
+  display: inline;
   size: 1%;
 }
-
 .currencyTable{
-  text-align: center;
-  margin: auto;
-
+    text-align: center;
+    margin: auto;
 }
-
 #currencyTable{
-  text-align: center;
-  border-collapse: separate;
+  
+    text-align: center;
+    border-collapse: separate;
 }
-
-table, td,th{
-  border: 1px solid chocolate;
-  padding: 0.5rem;
+table, td, th {
+    border: 1px solid black;
+    padding: 0.5rem;
 }
-
 td{
-  font-weight: bold;
+    font-weight: bold;
 }
-
